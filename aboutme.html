@@ -8,15 +8,6 @@
 
     <!-- Primary Meta Tags -->
     <title>Stephanie Minnis</title>
-    <meta name="title" content="Stephanie Minnis - Website">
-    <meta name="description" content="">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://stephminnis.github.io/">
-    <meta property="og:title" content="Stephanie Minnis - Website">
-    <meta property="og:description" content="">
-
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -42,6 +33,10 @@
             src: url('/fonts/Birdlove.ttf');
             font-style: normal;
         }
+        #selfie{
+            max-width: 60%;
+            height: auto;
+        }
 
 
         .faded {
@@ -49,9 +44,10 @@
         }
 
         .landing {
+
             padding-top: 100px;
-            min-height: 100%;
-            min-height: calc(100% - 56px);
+            min-height: 80%;
+            
            
         }
 
@@ -102,19 +98,68 @@
         </div>
     </nav>
     
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
-            <div class="row mx-auto">
-                <h4 class="display-4 font-weight-bold mx-auto text-center">Hi, I'm Steph</h4>
-            </div>
-            <div class="row mx-auto">
-                <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
-                    University.</h5>
-            </div>
-            <hr class="my-4">
-            
-            <a hred="aboutme.html" class="btn btn-secondary btn-lg">Learn More</a>
-            <img src="images/sleepingmochiflowerdown.png">
+        <!--
+    ===================
+        HOME 
+    ===================
+    -->
+    <section class="landing pl-5">           
+            <div class="container" >
+                <div class="row pl-5">
+                    <div class="col-sm-6">                                                                                                                                                     
+                            <p class=" pt-4" style="font-family: Birdlove; font-size: 45px;">Hi, I'm Steph</p>
+                            <h4 class=>IST Temple Univeristy Student</h4>                                
+                            <p>
+                                I have skills in photoshop and adobe premeire pro. And I am self-teaching myself Korean.
+                                Some of my interests are Webtoons, Kpop, Jpop, Anime, and Video games. In my free time 
+                                I am the leader of a Scanalation Group called Cinnamon Roll Scans. What we do is translate the 
+                                original Korean webtoons to english. I really like web and UX design. 
+                            </p>                                                     
+                    </div>
+                    <div class="col-sm-6">                           
+                            <div class="img-border">
+                                <img src="/images/selfie.jpg" alt=""  class="img-fluid img-thumbnail" id="selfie">
+                            </div>                            
+                    </div>
+                </div>
+            </div>        
+    </section> 
+       
+<section id="gallery">
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-4 mb-4">
+      <div class="card">
+        <a href="https://www.linkedin.com/in/stephanie-minnis-756baa17b" target="_blank"><img src="/images/linkedln.png" alt="" class="card-img-top"></a>
+        <div class="card-body">
+          <h5 class="card-title">LinkedIn</h5>
+          <p class="card-text">Connect with me on LinkedIn!</p>
         </div>
+       </div>
+      </div>
+    <div class="col-lg-4 mb-4">
+    <div class="card">
+        <a href="https://github.com/StephMinnis" target="_blank"><img src="/images/github.png"  alt="" class="card-img-top"></a>
+        <div class="card-body">
+          <h5 class="card-title">GitHub</h5>
+          <p class="card-text">Follow me on Github!</p>         
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+      <div class="card">
+        <img src="/images/mangadex.png"  alt="" class="card-img-top"></a>
+        <div class="card-body">
+          <h5 class="card-title">Comic Group</h5>
+          <p class="card-text">Follow our releases for my webcomic group! </p>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  </section>
+    
+        
 
     <div class='container-fluid footer bg-secondary' >
         <div class=" container d-flex justify-content-between py-2"> 
